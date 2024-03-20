@@ -19,6 +19,7 @@ unique_item_ids  = pd.read_parquet('Datasets/unique_item_ids.parquet')
 def presentacion():
     '''
     Genera una página de presentación HTML para la API Steam de consultas de videojuegos.
+    
     Returns:
     str: Código HTML que muestra la página de presentación.
     '''
@@ -59,10 +60,13 @@ def presentacion():
             <h1>¡Bienvenido a la API de consultas sobre videojuegos de Steam!</h1>
             <p>Explora y descubre el mundo de los videojuegos de Steam a través de nuestra plataforma de consultas</p>
             <p>INSTRUCCIONES:</p>
-            <p>Para interactuar con la API haz click <a href="https://steam-api-recomendacion-videojuegos-2.onrender.com/">Aquí:</a></p>
+            <p>Para interactuar con la API haz click <a href="https://steam-api-recomendacion-videojuegos-2.onrender.com/docs">Aquí:</a></p>
+            <p> Visita mi perfil en <a href="https://www.linkedin.com/in/edwintorre/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin"></a></p>
+            <p> Los detalles de desarrollo de este proyecto están disponibles en <a href="https://github.com/edwinpro/MLOps_videogames"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github"></a></p>
         </body>
     </html>
     '''
+
 def PlayTimeGenre(genero: str):
     # La función PlayTimeGenre tiene por parametro 'genero', filtrará los datos por el género proporcionado
     # y calculará el año con más horas jugadas para ese género.
