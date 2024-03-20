@@ -7,7 +7,7 @@
 ![Render](https://img.shields.io/badge/-Render-333333?style=flat&logo=render)
 
 # Proyecto MLOPs: Sistema de Recomendación VideoJuegos
-[steam-juegos]() 
+[steam-juegos](images/steam-juegos.webp) 
 
 ## Introducción
 
