@@ -59,7 +59,7 @@ def presentacion():
             <h1>¡Bienvenido a la API de consultas sobre videojuegos de Steam!</h1>
             <p>Explora y descubre el mundo de los videojuegos de Steam a través de nuestra plataforma de consultas</p>
             <p>INSTRUCCIONES:</p>
-            <p>Para interactuar con la API haz click <a href="">Aquí:</a></p>
+            <p>Para interactuar con la API haz click <a href="http://127.0.0.1:8000">Aquí:</a></p>
         </body>
     </html>
     '''
