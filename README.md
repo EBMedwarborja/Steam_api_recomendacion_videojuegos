@@ -109,11 +109,11 @@ El código para generar la API se encuentra en el archivo main.py y las funcione
 Optamos por Render, una plataforma en la nube que unifica la creación y ejecución de aplicaciones y sitios web. Esta opción permite desplegar automáticamente desde GitHub. El proceso se llevó a cabo mediante los siguientes pasos:
 
 - Se generó un servicio nuevo en `render.com`, conectado al presente repositorio.
-- Finalmente, el servicio queda corriendo en [http://mlops-videogames.onrender.com/](http://mlops-videogames.onrender.com/).
+- Finalmente, el servicio queda corriendo en https://steam-api-recomendacion-videojuegos-2.onrender.com.
 
 ### Video
 
-En este [video] se explica brevemente este proyecto mostrando el funcionamiento de la API.
+En este video https://drive.google.com/file/d/1dRcEcHOd2ahlhM0pSG35482VtTs381A7/view?usp=sharing se explica brevemente este proyecto mostrando el funcionamiento de la API.
 
 ## Oportunidades de mejoras
 
